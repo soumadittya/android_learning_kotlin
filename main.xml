@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding = "10dp">
+
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_marginTop = "120dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:hint = "enter the text here"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/send_msg_to_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop = "180dp"
+        android:text=""
+        android:hint = "send meessage to other activity"/>
+
+    <Button
+        android:id="@+id/btn_other_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop = "240dp"
+        android:text="share to other apps" />
+</RelativeLayout>
